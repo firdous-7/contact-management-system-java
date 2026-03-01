@@ -1,25 +1,35 @@
-## Getting Started
+# Contact Management System (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple command-line Contact Management System built using Java.
+This application allows users to manage contacts through a menu-driven interface in the terminal.
 
-## Folder Structure
+## Features
+- Add a new contact
+- View all contacts
+- Update contact details
+- Delete contact
 
-The workspace contains two folders by default, where:
+## Technologies Used
+- Java
+- Object-Oriented Programming (OOP)
+- ArrayList Data Structure
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Project Structure
+- Contact.java → stores contact details
+- ContactService.java → handles operations
+- Main.java → menu and user input
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-## Sample Output
-Menu driven terminal interface to manage contacts.
+## How to Run
+1. Open terminal in src folder
+2. Compile:
+   javac Main.java
+3. Run:
+   java Main
 
 ## Future Improvements
-- File storage (save contacts permanently)
-- GUI using JavaFX
-- Database integration (MySQL)
+- File storage
+- GUI interface
+- Database integration
+
+## Author
+Firdous Akhter
